@@ -1,16 +1,17 @@
 package resolvconf_test
 
 import (
-	"."
 	"bytes"
 	"fmt"
-	"github.com/stretchr/testify/assert"
+	"github.com/abdheshnayak/resolvconf"
 	"log"
 	"net"
 	"net/http"
 	"os"
 	"strconv"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestNewConf(t *testing.T) {

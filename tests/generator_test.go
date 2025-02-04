@@ -1,11 +1,12 @@
 package resolvconf_test
 
 import (
-	"." // import the main package
 	"bytes"
-	"github.com/stretchr/testify/assert"
 	"net"
 	"testing"
+
+	"github.com/abdheshnayak/resolvconf"
+	"github.com/stretchr/testify/assert"
 )
 
 func GetConf(conf *resolvconf.Conf) (string, error) {
